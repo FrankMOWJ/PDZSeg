@@ -1,12 +1,14 @@
 # PDZSeg: Adapting the Foundation Model for Dissection Zone Segmentation with Visual Prompts in Robot-assisted Endoscopic Submucosal Dissection
 
+<img src="./figs/main_fig.png" alt="main_fig" style="zoom:80%;" />
+
 ## Prerequisite
 
 Make sure that you have downloaded `PyTorch` and `MMsegmentation`.
 
 ## Prepare dataset
 
-Download our **ESD-DZSeg** dataset from [here](https://drive.google.com/file/d/1obfmkU1P5Dlv2no7t1eJriy0fqw2ArOI/view?usp=sharing) and unzip it under the root directory of the project by
+Send email to mengyaxu@cuhk.edu.hk to request to download our **ESD-DZSeg** dataset from [here](https://drive.google.com/file/d/1obfmkU1P5Dlv2no7t1eJriy0fqw2ArOI/view?usp=sharing) and unzip it under the root directory of the project by
 
 ```**shell**
 unzip ESD-DZSeg.zip

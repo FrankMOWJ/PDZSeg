@@ -8,7 +8,7 @@ Make sure that you have downloaded `PyTorch` and `MMsegmentation`.
 
 ## Prepare dataset
 
-Send email to mengyaxu@cuhk.edu.hk to request to download our **ESD-DZSeg** dataset from [here](https://drive.google.com/file/d/1obfmkU1P5Dlv2no7t1eJriy0fqw2ArOI/view?usp=sharing) and unzip it under the root directory of the project by
+Send email to mengyaxu@cuhk.edu.hk to request to download our **ESD-DZSeg** dataset from [here](https://drive.google.com/file/d/1obfmkU1P5Dlv2no7t1eJriy0fqw2ArOI/view?usp=drive_link) and unzip it under the root directory of the project by
 
 ```**shell**
 unzip ESD-DZSeg.zip

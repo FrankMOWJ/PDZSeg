@@ -6,27 +6,6 @@
 
 Make sure that you have downloaded `PyTorch` and `MMsegmentation`.
 
-## Prepare dataset
-
-Send email to mengyaxu@cuhk.edu.hk to request to download our **ESD-DZSeg** dataset from [here](https://drive.google.com/file/d/1obfmkU1P5Dlv2no7t1eJriy0fqw2ArOI/view?usp=drive_link) and unzip it under the root directory of the project by
-
-```**shell**
-unzip ESD-DZSeg.zip
-```
-
-After unzipping, the folder structure should be as follows.
-
-```tree
-.
-├── arch
-├── dataset
-├── log
-├── utils
-└── ...
-```
-
-The downloaded dataset only contains images without visual prompts, if you want to generate images with visual prompts(long scribble/ bounding box/  short scribble/ point), use the script under `utils/` including `draw_bbox.py`, `draw_point.py,` and `draw_longScribble.py`. Then it will generate the images with visual prompts under `./dataset/images_bbox/`,  `./dataset/images_point/ `, and `./dataset/images_longScribble/`, respectively.
-
 ## How to reproduce baseline using ESD-DZSeg
 
 please refer to [mmseg_readme](./docs/mmseg_readme.md).
